@@ -2,9 +2,9 @@
 python小学期大作业：基于 Streamlit 构建的北京师范大学支教数据可视化平台，整合支教故事、关键词分析、地图图谱、AI摘要与智能交互，方便校内外师生，为教育公益赋能。
 # 北师大支教数据图谱与故事可视化平台  
 > Teaching Story Visualization Portal for BNU Rural Education Support  
-> 📘 Python 课程设计 × Streamlit × 数据分析 × 教育公益 × AI 应用
+>  Python 课程设计 × Streamlit × 数据分析 × 教育公益 × AI 应用
 
-## 🧩 项目简介 | Project Overview
+## 一、 项目简介 | Project Overview
 
 本项目是一个围绕“北京师范大学支教项目”的综合性数据可视化系统。我们通过公众号内容的结构化抽取，构建了支教故事数据库，借助 Python、Streamlit 与多种数据分析工具，开发出具有图形交互、AI摘要、地图标注与动态词云等功能的数字化门户网站。
 
@@ -17,7 +17,7 @@ python小学期大作业：基于 Streamlit 构建的北京师范大学支教数
 - 交互式门户设计（Streamlit 实现）
 
 
-## 🖼️ 项目页面结构 | Main Portal Pages
+## 二、 项目页面结构 | Main Portal Pages
 
 ### 1. 🏠 门户首页（Home）
 
@@ -65,7 +65,7 @@ python小学期大作业：基于 Streamlit 构建的北京师范大学支教数
 - 🎞️ 支教故事配图自动视频生成（moviepy）：支持二次传播与视频展示
 
 
-## 💻 技术栈与依赖 | Tech Stack
+## 三、 技术栈与依赖 | Tech Stack
 
 | 类别 | 工具 / 库 |
 |------|-----------|
@@ -80,7 +80,7 @@ python小学期大作业：基于 Streamlit 构建的北京师范大学支教数
 | 视频生成 | moviepy（可选） |
 
 
-## 🛠️ 环境配置与运行方式 | How to Run
+## 四、 环境配置与运行方式 | How to Run
 
 ### 1. ✅ 本地运行（开发者推荐）
 
@@ -109,7 +109,7 @@ streamlit run app.py  # 或主入口文件 main.py
 5. 点击部署，生成在线链接，即可分享给朋友或老师
 
 
-## 📊 示例数据格式 | Example JSON Data
+## 五、 示例数据格式 | Example JSON Data
 
 ```json
 {
@@ -123,7 +123,7 @@ streamlit run app.py  # 或主入口文件 main.py
 ```
 
 
-##  项目目标与设计思路 | Design & Goals
+##  六、项目目标与设计思路 | Design & Goals
 
 本项目旨在以**教育公益数字化**为目标，结合真实数据与智能分析，构建一站式信息门户，帮助：
 
@@ -148,7 +148,7 @@ Streamlit 多页面可视化门户构建
 ```
 
 
-## 文件结构（简要）
+## 七、文件结构（简要）
 
 ```
 bnu-python-project/
@@ -165,7 +165,7 @@ bnu-python-project/
 ```
 
 
-## 项目成员与致谢 | Acknowledgements
+## 八、项目成员与致谢 | Acknowledgements
 
 - 🧑‍💻 开发与设计：[@zxy6688](https://github.com/zxy6688)
 - 🧑‍🏫 指导老师：北京师范大学人工智能学院教学团队
